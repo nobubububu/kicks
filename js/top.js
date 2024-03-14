@@ -61,6 +61,29 @@ window.onload = function () {
 /*スライダー */
 $(".product .list").slick({
   autoplay: true,
-  dots: true,
+  slidesToShow: 4,
+  arrows: false,
+  centerMode: true,
 });
 /*ここまでスライダー */
+/*上へ戻るボタン */
+
+$(function () {
+  var pagetop = $("#page_top");
+  // ボタン非表示
+  pagetop.hide();
+
+  // 100px スクロールしたらボタン表示
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      pagetop.fadeIn();
+    } else {
+      pagetop.fadeOut();
+    }
+  });
+  pagetop.click(function () {
+    $("body, html").animate({ scrollTop: 0 }, 500);
+    return false;
+  });
+});
+/*ここまで上へもどるボタン */

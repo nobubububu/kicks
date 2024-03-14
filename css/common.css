@@ -12,3 +12,27 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+.w1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-l_wrap #page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.footer-l_wrap #page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.footer-l_wrap #page_top a:hover {
+  background-color: #666;
+  text-decoration: none;
+}

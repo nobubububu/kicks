@@ -8,7 +8,6 @@ $Path = "";
     ?>
 <link rel="canonical" href="">
 <meta name="description" content="">
-<meta name="keywords" content="">
 </head>
 
 <body>
@@ -21,9 +20,15 @@ $Path = "";
                         data-rotate='[ "足元から、未来を。","走り出せ、自分らしく。"]'></span></h2>
             </section>
             <section class="about">
-                <h3 class="sub-title">個性豊かな一足が、<br>新しい旅を始めるきっかけに。</h3>
+                <div class="w1200">
+                    <h3 class="sub-title">KicksHubとは</h3>
+                    <p class="text">
+                        KicksHub（キックスハブ）は、世界中のスニーカーファンに向けて、最新のトレンドからクラシックなスタイルまで幅広いスニーカーコレクションを提供するオンラインプラットフォームです。私たちは、スニーカーコミュニティをつなぐハブとして、革新的なショッピング体験と情報の共有を促進します。
+                    </p>
+                </div>
             </section>
-            <div class="product">
+            <section class="product">
+                <h3 class="sub-title">個性豊かな一足が、<br>新しい旅を始めるきっかけに。</h3>
                 <ul class="list">
                     <li>
                         <div class="text-wrap">
@@ -52,7 +57,7 @@ $Path = "";
                             <p class="name">Fast Fit Fury</p>
                             <p class="text">
                                 Fast Fit
-                                Furyは、速いペースで走り、激しいトレーニングを行うランナーやトレーニングアスリートに最適なスニーカーです。その軽量でフィット感のあるデザインは、素早い動きに対応し、快適性と安定性を提供します。あなたのフットワークを磨き、フルスピードで前進するために、Fast
+                                Furyは、速いペースで走り、激しいトレーニングを行うランナーやトレーニングアスリートに最適なスニーカーです。<br>その軽量でフィット感のあるデザインは、素早い動きに対応し、快適性と安定性を提供します。あなたのフットワークを磨き、フルスピードで前進するために、Fast
                                 Fit Furyがあなたの味方です。
                             </p>
                         </div>
@@ -64,7 +69,7 @@ $Path = "";
                             <p class="name">Gravity Glide</p>
                             <p class="text">
                                 Gravity
-                                Glideは、地面を滑るように進む感覚を実現する革新的なスニーカーです。その軽量で反発力のあるクッショニングは、あなたの足を浮遊させるような感覚を生み出し、疲労を軽減します。優れたトラクションとスムーズな推進力を提供し、あなたのランニング体験を重力から解放します。
+                                Glideは、地面を滑るように進む感覚を実現する革新的なスニーカーです。<br>その軽量で反発力のあるクッショニングは、あなたの足を浮遊させるような感覚を生み出し、疲労を軽減します。<br>優れたトラクションとスムーズな推進力を提供し、あなたのランニング体験を重力から解放します。
                             </p>
                         </div>
                         <div class="img-wrap"><img src="images/item4.jpg" alt="Blaze Bound"></div>
@@ -75,11 +80,11 @@ $Path = "";
                             <p class="name">Neo Nova</p>
                             <p class="text">
                                 Neo
-                                Novaは、未来への飛躍を象徴する革新的なスニーカーです。その斬新なデザインと最新のテクノロジーが融合し、あなたのスタイルとパフォーマンスを新たな次元へ導きます。柔軟性と耐久性を兼ね備え、あらゆる活動に対応します。Neo
+                                Novaは、未来への飛躍を象徴する革新的なスニーカーです。<br>その斬新なデザインと最新のテクノロジーが融合し、あなたのスタイルとパフォーマンスを新たな次元へ導きます。柔軟性と耐久性を兼ね備え、あらゆる活動に対応します。<br>Neo
                                 Novaで、未来への道を切り拓きましょう。
                             </p>
                         </div>
-                        <div class="img-wrap"><img src="images/item5.jpg" alt="Blaze Bound"></div>
+                        <div class="img-wrap"><img src="images/item7.jpg" alt="Neo Nova"></div>
 
                     </li>
                     <li>
@@ -91,11 +96,11 @@ $Path = "";
                                 Soleで、都市の魅力を探求しましょう。
                             </p>
                         </div>
-                        <div class="img-wrap"><img src="images/item6.jpg" alt="Blaze Bound"></div>
+                        <div class="img-wrap"><img src="images/item8.jpg" alt="Cyber Sole"></div>
 
                     </li>
                 </ul>
-            </div>
+            </section>
         </main>
         <?php include('template/footer.php'); ?>
     </div><!-- wrapper -->
