@@ -1,0 +1,48 @@
+.fv {
+  position: relative;
+  video {
+    width: 100%;
+  }
+  .title {
+    font-size: clamp(25px, (50/1920) * 100vw, 50px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #fff;
+    letter-spacing: 0.2em;
+  }
+}
+.about {
+  .sub-title {
+    font-size: clamp(18px, (36/1920) * 100vw, 36px);
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+  }
+}
+.product {
+  .list {
+    width: clamp(200px, (400/1920) * 100vw, 400px);
+
+    li {
+      border-radius: 15px;
+      box-shadow: 2px 4px 12px #383838;
+      overflow: hidden;
+      .text-wrap {
+        padding: 1.5vw;
+        .name {
+          font-size: clamp(24px, (24/1920) * 100vw, 24px);
+          color: #6e6e73;
+          margin-bottom: 1vw;
+        }
+        .text {
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+        }
+      }
+    }
+  }
+}
