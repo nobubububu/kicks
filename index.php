@@ -12,8 +12,36 @@ $Path = "";
 
 <body>
     <div class="wrapper">
+        <div id="splash">
+            <div id="splash_logo">
+                <svg version="1.1" id="mask" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                    style="width: 256px; height: 256px; opacity: 1;" xml:space="preserve">
+                    <style type="text/css">
+                    .st0 {
+                        fill: #4B4B4B;
+                    }
+                    </style>
+                    <g>
+                        <path class="st0"
+                            d="M444.005,282.298c-61.53-14.852-148.318-71.812-200.716-116.736c-20.218-17.342-30.108-33.236-41.867-37.646
+		c-11.759-4.411-24.487,5.143-31.676,10.526c-31.34,23.449-5.083,43.866-5.083,43.866s-82.295,35.949-116.146-24.991
+		C33.817,130.853,0,132.326,0,167.62c0,20.58,0,217.595,0,217.595h510.169C510.169,361.698,529.281,302.878,444.005,282.298z"
+                            style="fill: rgb(75, 75, 75);"></path>
+                    </g>
+                </svg>
+
+
+                <!--このSVGタグの作り方は下記に記述-->
+                <!--/splash_logo-->
+            </div>
+            <!--/splash-->
+        </div>
+
         <?php include('template/header.php'); ?>
         <main>
+
+
             <section class="fv">
                 <video src="images/fv.mp4" autoplay loop muted></video>
                 <h2 class="title"> <span class="txt-rotate" data-period="2000"
