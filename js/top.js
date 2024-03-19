@@ -64,7 +64,17 @@ $(".product .list").slick({
   slidesToShow: 4,
   arrows: false,
   centerMode: true,
+  lazyload: "ondemand",
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 });
+
 /*ここまでスライダー */
 
 /*上へ戻るボタン */
@@ -98,7 +108,7 @@ stroke = new Vivus(
     //アニメーションをするIDの指定
     start: "manual", //自動再生をせずスタートをマニュアルに
     type: "scenario-sync", // アニメーションのタイプを設定
-    duration: 10, //アニメーションの時間設定。数字が小さくなるほど速い
+    duration: 50, //アニメーションの時間設定。数字が小さくなるほど速い
     forceRender: false, //パスが更新された場合に再レンダリングさせない
     animTimingFunction: Vivus.EASE, //動きの加速減速設定
   },
@@ -108,8 +118,8 @@ stroke = new Vivus(
 );
 
 $(window).on("load", function () {
-  $("#splash").delay(3000).fadeOut("slow"); //ローディング画面を3秒（3000ms）待機してからフェイドアウト
-  $("#splash_logo").delay(3000).fadeOut("slow"); //ロゴを3秒（3000ms）待機してからフェイドアウト
+  $("#splash").delay(1900).fadeOut("slow"); //ローディング画面を2.5秒（2500ms）待機してからフェイドアウト
+  $("#splash_logo").delay(1900).fadeOut("slow"); //ロゴを2.5秒（2500ms）待機してからフェイドアウト
   stroke.play(); //SVGアニメーションの実行
 });
 /*ここまでローディングアニメーション */

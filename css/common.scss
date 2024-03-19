@@ -15,6 +15,7 @@ img {
 .w1200 {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 (20/1920) * 100vw;
 }
 .header-l_wrap {
   position: sticky;
@@ -81,5 +82,30 @@ img {
   #page_top a:hover {
     background-color: #666;
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .w1200 {
+    padding: 0 3vw;
+  }
+  .header-l_wrap {
+    padding: 1vw 0;
+    .w1200 {
+      .logo {
+        img {
+          width: 14vw;
+        }
+        span {
+          font-size: clamp(12px, (20/750) * 100vw, 20px);
+          margin-top: -2.5vw;
+        }
+      }
+    }
+  }
+  .footer-l_wrap {
+    small {
+      font-size: clamp(12px, (16/750) * 100vw, 16px);
+    }
   }
 }

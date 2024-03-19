@@ -102,6 +102,7 @@
           line-height: 1.5;
           letter-spacing: 0.1em;
           font-size: clamp(12px, (16/1920) * 100vw, 16px);
+          word-break: auto-phrase;
         }
       }
       .img-wrap {
@@ -124,4 +125,50 @@
 .slick-list,
 .slick-track {
   height: 100%;
+}
+#splash_logo svg {
+  width: 256px;
+  height: 256px;
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  #splash_logo {
+    svg {
+      width: 25vw;
+    }
+  }
+  .fv {
+    .title {
+      font-size: clamp(22px, (44/750) * 100vw, 44px);
+      white-space: nowrap;
+    }
+  }
+  .about {
+    padding: 16vw 0;
+    .text {
+      font-size: clamp(12px, (18/750) * 100vw, 18px);
+      margin-top: (40/750) * 100vw;
+    }
+  }
+  .sub-title {
+    font-size: clamp(16px, (32/750) * 100vw, 32px);
+  }
+  .product {
+    padding-top: 16vw;
+    .list {
+      li {
+        width: 66vw !important;
+        height: 100%;
+        .text-wrap {
+          padding: 6vw;
+          .name {
+            font-size: clamp(16px, (32/750) * 100vw, 32px);
+            margin-bottom: 4vw;
+          }
+          .text {
+          }
+        }
+      }
+    }
+  }
 }
