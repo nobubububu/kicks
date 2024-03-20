@@ -6,8 +6,9 @@ $Path = "";
         define("title" ,"トップ");
         include('template/head.php');
     ?>
-<link rel="canonical" href="">
-<meta name="description" content="">
+<meta name="description"
+    content="KicksHub（キックスハブ）は、世界中のスニーカーファンに向けて、最新のトレンドからクラシックなスタイルまで幅広いスニーカーコレクションを提供するオンラインプラットフォームです。私たちは、スニーカーコミュニティをつなぐハブとして、革新的なショッピング体験と情報の共有を促進します。">
+
 </head>
 
 <body>

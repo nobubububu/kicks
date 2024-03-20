@@ -2,9 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?php echo title; ?> | KicksHub</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <link rel="icon" href="<?php print $Path; ?>">
+    <link rel="icon" href="<?php print $Path; ?>images/favicon.ico">
     <!-- fontawesome -->
     <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
     <!--fontawesome-->
