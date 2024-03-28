@@ -44,20 +44,24 @@ $Path = "";
 
 
             <section class="fv">
-                <video src="images/fv.mp4" autoplay loop muted></video>
+                <video src="images/fv.mp4" playsinline autoplay loop muted></video>
                 <h2 class="title"> <span class="txt-rotate" data-period="2000"
                         data-rotate='[ "足元から、未来を。","走り出せ、自分らしく。"]'></span></h2>
             </section>
             <section class="about">
                 <div class="w1200">
-                    <h3 class="sub-title">KicksHubとは</h3>
+                    <h3 class="sub-title"><span class="smoothText"><span
+                                class="smoothTextTrigger">KicksHubとは</span></span></h3>
                     <p class="text">
-                        KicksHub（キックスハブ）は、世界中のスニーカーファンに向けて、最新のトレンドからクラシックなスタイルまで幅広いスニーカーコレクションを提供するオンラインプラットフォームです。私たちは、スニーカーコミュニティをつなぐハブとして、革新的なショッピング体験と情報の共有を促進します。
+                        <span class="smoothText"><span class="smoothTextTrigger">
+                                KicksHub（キックスハブ）は、世界中のスニーカーファンに向けて、最新のトレンドからクラシックなスタイルまで幅広いスニーカーコレクションを提供するオンラインプラットフォームです。私たちは、スニーカーコミュニティをつなぐハブとして、革新的なショッピング体験と情報の共有を促進します。
+                            </span></span>
                     </p>
                 </div>
             </section>
             <section class="product">
-                <h3 class="sub-title">個性豊かな一足が、<br>新しい旅を始めるきっかけに。</h3>
+                <h3 class="sub-title"><span class="smoothText"><span
+                            class="smoothTextTrigger">個性豊かな一足が、<br>新しい旅を始めるきっかけに。</span></span></h3>
                 <ul class="list">
                     <li>
                         <div class="text-wrap">

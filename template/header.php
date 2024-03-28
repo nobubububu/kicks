@@ -2,7 +2,7 @@
     <div class="w1200">
         <h1 class="logo">
 
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt="kickshub">
             <span>KicksHub</span>
         </h1>
         <nav>

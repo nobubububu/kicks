@@ -80,6 +80,7 @@
   background-color: #f5f5f7;
   padding-top: 8vw;
   .list {
+    display: flex;
     li {
       border-radius: 15px;
       box-shadow: 2px 4px 12px #383838;
@@ -91,8 +92,12 @@
       flex-direction: column;
       justify-content: space-between;
       background-color: #fff;
+
       .text-wrap {
         padding: 1.5vw;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
         .name {
           font-size: clamp(24px, (24/1920) * 100vw, 24px);
           color: #6e6e73;
@@ -106,6 +111,7 @@
         }
       }
       .img-wrap {
+        margin-top: auto;
         img {
           height: 200px;
           width: 100%;
@@ -115,21 +121,28 @@
     }
   }
 }
-.slick-track {
-  display: flex;
-}
-.slick-slide {
-  height: auto !important;
-}
-.key-slider,
-.slick-list,
-.slick-track {
-  height: 100%;
-}
+
 #splash_logo svg {
   width: 256px;
   height: 256px;
   opacity: 1;
+}
+
+/*========= テキストを滑らかに出現させるためのCSS ===============*/
+span.smoothText {
+  overflow: hidden;
+  display: block;
+}
+
+/* アニメーションで傾斜がついている文字列を水平に戻す*/
+span.smoothTextTrigger {
+  transition: 0.8s ease-in-out;
+  transform: translate3d(0, 100%, 0) skewY(12deg);
+  transform-origin: left;
+  display: block;
+}
+span.smoothTextTrigger.smoothTextAppear {
+  transform: translate3d(0, 0, 0) skewY(0);
 }
 @media screen and (max-width: 768px) {
   #splash_logo {
