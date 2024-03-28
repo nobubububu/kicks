@@ -118,7 +118,7 @@ stroke = new Vivus(
 );
 
 $(window).on("load", function () {
-  $("#splash").delay(100).fadeOut("slow"); //ローディング画面を2.5秒（2500ms）待機してからフェイドアウト1900
+  $("#splash").delay(1900).fadeOut("slow"); //ローディング画面を2.5秒（2500ms）待機してからフェイドアウト
   $("#splash_logo").delay(1900).fadeOut("slow"); //ロゴを2.5秒（2500ms）待機してからフェイドアウト
   stroke.play(); //SVGアニメーションの実行
 });
