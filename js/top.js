@@ -147,3 +147,8 @@ $(window).scroll(function () {
 $(window).on("load", function () {
   SmoothTextAnime(); /* アニメーション用の関数を呼ぶ*/
 }); // ここまで画面が読み込まれたらすぐに動かしたい場合の記述
+
+//iphoneバウンススクロール対策
+if (navigator.userAgent.indexOf("iPhone") > 0) {
+  $("body").css("background-color", "#000");
+}

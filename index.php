@@ -44,7 +44,9 @@ $Path = "";
 
 
             <section class="fv">
-                <video src="images/fv.mp4" playsinline autoplay loop muted></video>
+                <div class="movie">
+                    <video src="images/fv.mp4" playsinline autoplay loop muted></video>
+                </div>
                 <h2 class="title"> <span class="txt-rotate" data-period="2000"
                         data-rotate='[ "足元から、未来を。","走り出せ、自分らしく。"]'></span></h2>
             </section>
